@@ -138,7 +138,8 @@ def donut_chart_ratings_director(year):
     fig.update_traces(textfont=dict(family='Helvetica', size=10), marker_colorbar_tickfont_color="white",
                       hovertemplate='<b>%{label} </b> <br> Director %{parent} <br> Average Vote: %{color:.2f}')
     fig.update_coloraxes(colorbar_tickfont=dict(family='Helvetica', color='white', size=14),
-                         colorbar_title_font=dict(family='Helvetica', color='white', size=14))
+                         colorbar_title_font=dict(family='Helvetica', color='white', size=14),colorbar_ticklabelposition="outside bottom")
+
 
 
     return fig
@@ -461,6 +462,8 @@ def display_content(value):
                                 children=[html.H2('Movies and Directors'),
                                           html.H6(
                                               'Presents the 10 highest-rated movies and their respective director'),
+                                          html.H6(
+                                              'Click in the center of the figure to isolate a specific director and its top movie(s)'),
                                           html.Br()]
                             ),
 
