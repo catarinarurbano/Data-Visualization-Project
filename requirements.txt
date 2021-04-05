@@ -1,0 +1,13 @@
+dash-bootstrap-components
+regex 
+dash
+dash-core-components
+dash-html-components
+dash-renderer
+dash-table
+gunicorn
+numpy
+pandas
+plotly
+requests
+imdbpy
