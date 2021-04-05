@@ -106,8 +106,9 @@ display: inline-block;
 
 .Select--multi .Select-value {
   background-color: #f5c518;
-  border-color: #f5c518;
+  /*border-color: #f5c518;*/
   color: #ffffff;
+    border: 1px solid #f5c518;
 }
 
 .Select-input .Select-value {
@@ -125,11 +126,16 @@ display: inline-block;
     background-color:#f5c518;
 }
 
-.teste.Select.has-value.Select--single > .Select-control .Select-value .Select-value-label, .Select.has-value.is-pseudo-focused.Select--single > .Select-control .Select-value .Select-value-label { color: white; }
+.teste.Select.has-value.Select--single > .Select-control .Select-value .Select-value-label, .Select.has-value.is-pseudo-focused.Select--single > .Select-control .Select-value .Select-value-label {
+    color: white;
+    content-visibility: visible;
+    visibility: visible;
+}
 .teste.Select.Select--single > .Select-control .Select-value .Select-value-label, .Select.is-pseudo-focused.Select--single > .Select-control .Select-value .Select-value-label { color: white; }
 .teste.option {
     background-color: #262525;
     color: #FFFFFF;
+
 }
 
 .rc-slider-dot{
