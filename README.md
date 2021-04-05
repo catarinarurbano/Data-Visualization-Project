@@ -11,4 +11,3 @@ In short, this dashboard illustrates the movies presented by the IMDb's website 
   Dataset Source: https://www.kaggle.com/stefanoleone992/imdb-extensive-dataset
   
   Heroku link: https://inside-imdb.herokuapp.com/
-# IMDB_Dash_App_DV_project
